@@ -1,6 +1,10 @@
 package org.example;
 
 public class Main {
+    public static double div(double a, double b)
+    {
+        return a / b;
+    }
     public static int sum(int a, int b) {
         return a + b;
     }
@@ -13,5 +17,6 @@ public class Main {
 
         System.out.println(sum(a, b));
         System.out.println(mul(a, b));
+        System.out.println(div(a, b));
     }
 }
